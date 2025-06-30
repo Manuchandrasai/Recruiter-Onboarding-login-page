@@ -1,0 +1,87 @@
+/* Body and Background */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container Box */
+.container {
+  background-color: white;
+  max-width: 480px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+/* Back Link */
+.back-link {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 14px;
+  color: #444;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+button {
+  padding: 12px;
+  background-color: #667eea;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a67d8;
+}
+
+/* Password Checklist */
+#passwordError {
+  font-size: 13px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+#passwordError li {
+  list-style-type: disc;
+  color: red;
+}
